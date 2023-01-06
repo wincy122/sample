@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+int a=5,b=3;
+int c;
+printf("entered values to sum is \n");
+scanf("%d %d\n",&a,&b);
+c=a-b;
+printf("difference of entered numbers is %d\n",c);
+}
